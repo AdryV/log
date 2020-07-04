@@ -1,0 +1,202 @@
+adr@adr-virtual-machine:~/t-alps-q0.mp1-V9.107$ make clean
+15:26:09 Entire build directory removed.
+adr@adr-virtual-machine:~/t-alps-q0.mp1-V9.107$ . build/envsetup.sh
+including device/mediatek/build/vendorsetup.sh
+including device/mediateksample/k57pv1_dm_64/vendorsetup.sh
+device/mediateksample/k57pv1_dm_64/vendorsetup.sh:17: add_lunch_combo is obsolete. Use COMMON_LUNCH_CHOICES in your AndroidProducts.mk instead.
+device/mediateksample/k57pv1_dm_64/vendorsetup.sh:19: add_lunch_combo is obsolete. Use COMMON_LUNCH_CHOICES in your AndroidProducts.mk instead.
+device/mediateksample/k57pv1_dm_64/vendorsetup.sh:20: add_lunch_combo is obsolete. Use COMMON_LUNCH_CHOICES in your AndroidProducts.mk instead.
+adr@adr-virtual-machine:~/t-alps-q0.mp1-V9.107$ lunch
+
+You're building on Linux
+
+Lunch menu... pick a combo:
+     1. aosp_arm-eng
+     2. aosp_arm64-eng
+     3. aosp_blueline-userdebug
+     4. aosp_bonito-userdebug
+     5. aosp_car_arm-userdebug
+     6. aosp_car_arm64-userdebug
+     7. aosp_car_x86-userdebug
+     8. aosp_car_x86_64-userdebug
+     9. aosp_cf_arm64_phone-userdebug
+     10. aosp_cf_x86_64_phone-userdebug
+     11. aosp_cf_x86_auto-userdebug
+     12. aosp_cf_x86_phone-userdebug
+     13. aosp_cf_x86_tv-userdebug
+     14. aosp_crosshatch-userdebug
+     15. aosp_marlin-userdebug
+     16. aosp_sailfish-userdebug
+     17. aosp_sargo-userdebug
+     18. aosp_taimen-userdebug
+     19. aosp_walleye-userdebug
+     20. aosp_walleye_test-userdebug
+     21. aosp_x86-eng
+     22. aosp_x86_64-eng
+     23. beagle_x15-userdebug
+     24. fuchsia_arm64-eng
+     25. fuchsia_x86_64-eng
+     26. full_k37mv1_64_bsp-eng
+     27. full_k37mv1_64_bsp-user
+     28. full_k37mv1_64_bsp-userdebug
+     29. full_k37mv1_bsp-eng
+     30. full_k37mv1_bsp-user
+     31. full_k37mv1_bsp-userdebug
+     32. full_k37mv1_bsp_512-eng
+     33. full_k37mv1_bsp_512-user
+     34. full_k37mv1_bsp_512-userdebug
+     35. full_k37mv1_bsp_k49-eng
+     36. full_k37mv1_bsp_k49-user
+     37. full_k37mv1_bsp_k49-userdebug
+     38. full_k37tv1_64_bsp-eng
+     39. full_k37tv1_64_bsp-user
+     40. full_k37tv1_64_bsp-userdebug
+     41. full_k37tv1_bsp_512-eng
+     42. full_k37tv1_bsp_512-user
+     43. full_k37tv1_bsp_512-userdebug
+     44. full_k37tv1_bsp_gmo_1g-eng
+     45. full_k37tv1_bsp_gmo_1g-user
+     46. full_k37tv1_bsp_gmo_1g-userdebug
+     47. full_k39tv1_bsp-eng
+     48. full_k39tv1_bsp-user
+     49. full_k39tv1_bsp-userdebug
+     50. full_k39tv1_bsp_512-eng
+     51. full_k39tv1_bsp_512-user
+     52. full_k39tv1_bsp_512-userdebug
+     53. full_k50sv1_64_bsp-eng
+     54. full_k50sv1_64_bsp-user
+     55. full_k50sv1_64_bsp-userdebug
+     56. full_k57pv1_1g_hdp_ago-eng
+     57. full_k57pv1_1g_hdp_ago-user
+     58. full_k57pv1_1g_hdp_ago-userdebug
+     59. full_k57pv1_dm_2g_hdp-eng
+     60. full_k57pv1_dm_2g_hdp-user
+     61. full_k57pv1_dm_2g_hdp-userdebug
+     62. full_k57pv1_dm_64-eng
+     63. full_k57pv1_dm_64-user
+     64. full_k57pv1_dm_64-userdebug
+     65. full_k62mv1_32_bsp-eng
+     66. full_k62mv1_32_bsp-user
+     67. full_k62mv1_32_bsp-userdebug
+     68. full_k62v1_32_bsp-eng
+     69. full_k62v1_32_bsp-user
+     70. full_k62v1_32_bsp-userdebug
+     71. full_k62v1_64_bsp-eng
+     72. full_k62v1_64_bsp-user
+     73. full_k62v1_64_bsp-userdebug
+     74. full_k80_bsp-eng
+     75. full_k80_bsp-user
+     76. full_k80_bsp-userdebug
+     77. full_k80hd_bsp_fwv_512m-eng
+     78. full_k80hd_bsp_fwv_512m-user
+     79. full_k80hd_bsp_fwv_512m-userdebug
+     80. hikey-userdebug
+     81. hikey64_only-userdebug
+     82. hikey960-userdebug
+     83. hikey960_tv-userdebug
+     84. hikey_tv-userdebug
+     85. m_e_arm-userdebug
+     86. mini_emulator_arm64-userdebug
+     87. mini_emulator_x86-userdebug
+     88. mini_emulator_x86_64-userdebug
+     89. poplar-eng
+     90. poplar-user
+     91. poplar-userdebug
+     92. qemu_trusty_arm64-userdebug
+     93. uml-userdebug
+     94. vnd_k37mv1_bsp-eng
+     95. vnd_k37mv1_bsp-user
+     96. vnd_k37mv1_bsp-userdebug
+     97. vnd_k37mv1_bsp_512-eng
+     98. vnd_k37mv1_bsp_512-user
+     99. vnd_k37mv1_bsp_512-userdebug
+     100. vnd_k37mv1_bsp_k49-eng
+     101. vnd_k37mv1_bsp_k49-user
+     102. vnd_k37mv1_bsp_k49-userdebug
+     103. vnd_k39tv1_bsp-eng
+     104. vnd_k39tv1_bsp-user
+     105. vnd_k39tv1_bsp-userdebug
+     106. vnd_k50sv1_64_bsp-eng
+     107. vnd_k50sv1_64_bsp-user
+     108. vnd_k50sv1_64_bsp-userdebug
+     109. vnd_k57pv1_1g_hdp_ago-eng
+     110. vnd_k57pv1_1g_hdp_ago-user
+     111. vnd_k57pv1_1g_hdp_ago-userdebug
+     112. vnd_k57pv1_dm_2g_hdp-eng
+     113. vnd_k57pv1_dm_2g_hdp-user
+     114. vnd_k57pv1_dm_2g_hdp-userdebug
+     115. vnd_k62mv1_32_bsp-eng
+     116. vnd_k62mv1_32_bsp-user
+     117. vnd_k62mv1_32_bsp-userdebug
+     118. vnd_k62v1_32_bsp-eng
+     119. vnd_k62v1_32_bsp-user
+     120. vnd_k62v1_32_bsp-userdebug
+     121. vnd_k62v1_64_bsp-eng
+     122. vnd_k62v1_64_bsp-user
+     123. vnd_k62v1_64_bsp-userdebug
+     124. vnd_k80_bsp-eng
+     125. vnd_k80_bsp-user
+     126. vnd_k80_bsp-userdebug
+     127. vnd_k80hd_bsp_fwv_512m-eng
+     128. vnd_k80hd_bsp_fwv_512m-user
+     129. vnd_k80hd_bsp_fwv_512m-userdebug
+
+Which would you like? [aosp_arm-eng] 63
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+TARGET_PRODUCT=full_k57pv1_dm_64
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a53
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.4.0-40-generic-x86_64-Linux-Mint-20
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QP1A.190711.020
+OUT_DIR=out
+============================================
+adr@adr-virtual-machine:~/t-alps-q0.mp1-V9.107$ make
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+TARGET_PRODUCT=full_k57pv1_dm_64
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a53
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.4.0-40-generic-x86_64-Linux-Mint-20
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QP1A.190711.020
+OUT_DIR=out
+============================================
+[100% 187/187] out/soong/.bootstrap/bin/soong_build out/soong/build.ninja
+FAILED: out/soong/build.ninja
+out/soong/.bootstrap/bin/soong_build -t -l out/.module_paths/Android.bp.list -b out/soong -n out -d out/soong/build.ninja.d -globFile out/soong/.bootstrap/build-globs.ninja -o out/soong/build.ninja Android.bp
+repo_dep_check: WARNING: repo dep check bypass, config not exist: vendor/mediatek/switch_config/mt6757/feature_switchable.all.json
+Killed
+15:32:14 soong bootstrap failed with: exit status 1
+ninja: build stopped: subcommand failed.
+#### failed to build some targets (01:59 (mm:ss)) ####
+
+adr@adr-virtual-machine:~/t-alps-q0.mp1-V9.107$ 
